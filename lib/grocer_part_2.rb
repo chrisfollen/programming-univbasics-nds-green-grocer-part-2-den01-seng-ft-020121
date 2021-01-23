@@ -74,7 +74,7 @@ def checkout(cart, coupons)
   ready_cart = apply_clearance(coup_cart)
   total = 0 
   ready_cart.each do |x|
-    sub_total = x[:price]*x[count]
+    sub_total = x[:price]*x[:count]
     total = total + sub_total
   end
   if total > 100
