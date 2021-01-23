@@ -42,13 +42,13 @@ coup_in = [
   {:item => "AVOCADO", :num => 2, :cost => 5.00}
 ]
 
-#apply_coupons(cart_in, coup_in)
 
 
 def apply_clearance(cart)
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
+  
   
 end
 
